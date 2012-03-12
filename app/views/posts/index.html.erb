@@ -14,7 +14,7 @@
     <td></td>
   </tr>
   <tr>
-    <td><%= post.body.byteslice(0..50) + (post.body.length>50 ? "...":"   ") %></td>
+    <td><%= post.body.slice(0..50) + (post.body.length>50 ? "...":"   ") %></td>
     <td><%= link_to 'Show', post %></td>
     <td><%= link_to 'Edit', edit_post_path(post) %></td>
     <td><%= link_to 'Destroy', post, confirm: 'Are you sure?', method: :delete %></td>
