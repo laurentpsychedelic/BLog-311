@@ -1,0 +1,7 @@
+#ignored files
+#backup files
+*~
+#files in tmp folder
+tmp/*
+#development log
+log/development.log
