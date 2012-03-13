@@ -5,3 +5,5 @@
 tmp/*
 #development log
 log/development.log
+#rails guides
+rails-guides
