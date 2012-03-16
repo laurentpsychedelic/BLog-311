@@ -1,9 +1,13 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
 
 one:
-  title: MyString
-  body: MyText
+  title: My first blog
+  body: This is a test for testing database
 
 two:
-  title: MyString
-  body: MyText
+  title: 日本語も使えますよ！
+  body: タイトルのとおりです。日本語使えます。
+
+three:
+  title: A third example
+  body: 3つ目の例。
