@@ -1,6 +1,9 @@
 <h1>Editing post</h1>
-
+<% if admin? %>
 <%= render 'form' %>
 
 <%= link_to 'Show', @post %> |
 <%= link_to 'Back', posts_path %>
+<% else %>
+<h1 class="error">ERROR: must be logged-in as admin</h1>
+<% end %>
