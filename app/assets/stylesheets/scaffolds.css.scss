@@ -1,9 +1,21 @@
+.container {
+  width: 200px; }
+
 body {
   background-color: #000;
   color: #fff;
   font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px; }
+
+table.post-preview {
+  width: 100%;
+  background-color: #111;
+  color: #fff;
+  border-width: thick;
+  border-style: solid;
+  border-color: #fff; 
+  border-radius: 15px; }
 
 p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
